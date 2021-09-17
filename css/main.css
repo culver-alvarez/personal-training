@@ -1,9 +1,9 @@
-.container-class {
-    background-image: url("../img/fitgirl.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 800px;
-    height: 800px;
+img {
+    /*background-image: url("../img/fitgirl.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    width: 600px;
+    height: auto;
     /*border: 2px dashed #333;*/
 }
 
