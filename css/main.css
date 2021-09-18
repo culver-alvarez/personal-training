@@ -1,15 +1,18 @@
+html {
+    background: url(../img/abstract-blue.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .container-class {
     text-align: center;
 }
 
 
-img {
-    /*background-image: url("../img/fitgirl.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-    width: 600px;
-    height: auto;
-    /*border: 2px dashed #333;*/
+#front-pt {
+    width: 50%;
 }
 
 
