@@ -48,3 +48,10 @@ html {
 .nav-item a:hover {
     background-color: #111;
 }
+
+.fancy-header {
+    color: pink;
+}
+.fancy-shadow {
+    text-shadow: 2px 2px #ff0000;
+}
