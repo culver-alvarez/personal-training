@@ -46,6 +46,7 @@ html {
 
 /* Change the link color to #111 (black) on hover */
 .nav-item a:hover {
+    color: lawngreen;
     background-color: #111;
 }
 
@@ -56,7 +57,24 @@ html {
     text-shadow: 2px 2px #ff0000;
 }
 
-/* This is an example of a descendant selector */
+/* This is an example of a descendant selector, meaning all h3 under parent element container will be affected */
 #container h3 {
     color: yellow;
+}
+
+/* This is an example of a Direct-Child selector meaning that the direct child of parent will only get the style */
+#container>h2 {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+   color: purple;
+}
+
+a:active {
+    color:red;
 }
