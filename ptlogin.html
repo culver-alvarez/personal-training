@@ -2,46 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Log in Page</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<nav>
-    <ul id="nav-list">
-        <li class="nav-item"><a href="index.html">Cosme Personal Training</a></li>
-        <li class="nav-item"><a href="registration.html">Register</a></li>
-        <li class="nav-item"><a href="ptlogin.html">Log In</a></li>
-        <li class="nav-item"><a href="veridian.html">About Us</a></li>
-        <li class="nav-item"><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-<br>
-<img class="front-pt" src="img/fitgirl.jpg" alt="fit girl working out">
-<h2>Log in to your Account</h2>
+<main>
+    <nav>
+        <ul id="nav-list">
+            <li class="nav-item"><a href="index.html">Cosme Personal Training</a></li>
+            <li class="nav-item"><a href="registration.html">Register</a></li>
+            <li class="nav-item"><a href="ptlogin-roughdraft.html">Log In</a></li>
+            <li class="nav-item"><a href="veridian.html">About Us</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="black">
+    <img class="logo" src="img/black-logo.png">
+    </div>
     <form method="POST" action="https://request-inspector.glitch.me/">
+        <fieldset class="width-80">
+            <div class="form-group">
 
-        <label for="username">Username</label>
-        <input id="username" name="username" type="text">
-        <br>
-
-        <label for="password">Password</label>
-        <input id="password" name="password" type="password">
-        <br>
-<!--        input type automatically defaults in a 'Submit' button, easier than button. if you add value attribute, you can customize button label-->
-        <input type="submit" value="Send it over dude!">
-        <br>
-        <br>
-
-        <h3>Leave a comment.</h3>
-        <textarea name="comment"></textarea>
-        <br>
-
-        <input name="newsletter_signup" value="true" type="checkbox" checked>Sign Up For The Email Newsletter
-        <br>
-        <input type="submit" value="Send it over dude!">
+                <h2>Please Log In</h2>
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" name="username" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" class="form-control">
+            </div>
+            <button class="btn btn-block">Login</button>
+        </fieldset>
     </form>
-
-
-
+</main>
 </body>
 </html>
