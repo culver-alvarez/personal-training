@@ -6,7 +6,8 @@
 body, html {
     height: 100%;
     width: 100%;
-    background-color: #cbffcd;
+    /*background-color: #cbffcd;*/
+    background-color: #000;
     font-family: Arial, Ubuntu, sans-serif;
 }
 
@@ -80,4 +81,15 @@ fieldset {
 
 h2 {
     text-align: center;
+}
+
+
+.black {
+    display: block;
+    text-align: center;
+
+}
+
+.logo {
+    width: 20%;
 }
