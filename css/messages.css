@@ -7,9 +7,29 @@ body, html {
 }
 
 .message {
-    border: 3px solid gray;
-    border-radius: 5%;
-    width: 20%;
-    margin: 0.5em 0;
+    border: 3px ridge grey;
+    border-radius: 5px;
+    width: 40%;
+    margin: 10px 0;
     padding: .5em;
+}
+
+.message-info {
+    background-color: lightblue;
+    color: midnightblue;
+}
+
+.message-success{
+    background-color: palegreen;
+    color: darkgreen;
+}
+
+.message-warning {
+    background-color: palegoldenrod;
+    color: darkgoldenrod;
+}
+
+.message-error {
+    background-color: lightpink;
+    color: darkred;
 }
