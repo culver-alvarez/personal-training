@@ -75,3 +75,9 @@ fieldset {
     /* HINT: Examples are available at: https://glitch.com/~input-button-width */
     width: calc(100% - 12px);
 }
+
+/*my changes*/
+
+h2 {
+    text-align: center;
+}
