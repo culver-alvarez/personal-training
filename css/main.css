@@ -1,9 +1,11 @@
 html {
-    background: url(../img/abstract-blue.jpg) no-repeat center center fixed;
+    /*background: url(../img/abstract-blue.jpg) no-repeat center center fixed;*/
+    background: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: white;
 }
 
 .container-class {
@@ -12,7 +14,18 @@ html {
 
 
 .front-pt {
-    width: 40%;
+    width: 25%;
+    border: solid 1px #555;
+    background-color: #eed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: transform .3s; /* Animation */
+}
+
+.front-pt2 {
+    width: 41%;
     border: solid 1px #555;
     background-color: #eed;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
@@ -23,13 +36,12 @@ html {
 }
 
 
-
 #nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #fff;
 }
 
 .nav-item{
