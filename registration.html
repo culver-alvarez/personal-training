@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Register With Us</title>
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -17,25 +18,29 @@
 </nav>
     <h1>Register With Us</h1>
     <form action="https://www.elformo.com/forms/e6735c4b-560c-48ac-b04e-c9bef759a16b" method="post" accept-charset="UTF-8">
-        <label for="email">Email</label>
-        <input id="email" name="email" type="text" placeholder="Email"><br>
-        <label for="password">Password</label>
-        <input id="password" name="password" type="password" placeholder="Password"><br><br>
-        <label for="bio">Bio</label><br>
-        <textarea id="bio" name="bio"></textarea><br><br>
-        <label>How did you hear about us?</label><br>
-        <input type="checkbox" name="user-medium" value="internet"> Internet<br>
-        <input type="checkbox" name="test-medium" value="friend"> Friend<br>
-        <input type="checkbox" name="user-medium" value="tv"> TV<br>
-        <input type="checkbox" name="user-medium" value="other"> Other<br><br>
-        <label>What is your browser preference?</label><br>
+        <fieldset class="width-80">
+            <div class="form-group">
+        <label for="email" class="form-label reg-font">Email</label>
+        <input id="email" name="email" type="text" placeholder="Email" class="form-control"><br>
+        <label for="password" class="reg-font">Password</label>
+        <input id="password" name="password" type="password" placeholder="Password" class="form-control"><br><br>
+        <label for="bio" class="reg-font">Bio</label><br>
+        <textarea id="bio" name="bio" class="form-control"></textarea><br><br>
+        <label class="reg-font">How did you hear about us?</label><br>
+        <input type="checkbox" name="user-medium" value="internet"><label class="reg-font"> Internet</label><br>
+                <input type="checkbox" name="test-medium" value="friend"><label class="reg-font"> Friend</label><br>
+                <input type="checkbox" name="user-medium" value="tv"><label class="reg-font"> TV</label><br>
+                <input type="checkbox" name="user-medium" value="other"><label class="reg-font"> Other</label><br><br>
+        <label class="reg-font">What is your browser preference?</label><br>
         <select name="browser_preference">
             <option value="microsoft">Microsoft</option>
             <option value="chrome">Chrome</option>
             <option value="firefox">Firefox</option>
             <option value="safari">Safari</option>
         </select><br><br>
-        <input type="submit">
+            </div>
+            <button class="btn btn-block">Login</button>
+        </fieldset>
     </form>
 </body>
 </html>
