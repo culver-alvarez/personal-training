@@ -41,7 +41,7 @@ html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: silver;
+    background-color: red;
 }
 
 .nav-item{
@@ -51,6 +51,7 @@ html {
 .nav-item a {
     display: block;
     color: white;
+    font-weight: bolder;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -80,7 +81,7 @@ html {
 }
 
 a:visited {
-    color: green;
+    color: white;
 }
 
 a:hover {
