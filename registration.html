@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<nav>
+<nav id="top">
     <ul id="nav-list">
         <li class="nav-item"><a href="index.html">Cosme Personal Training</a></li>
         <li class="nav-item"><a href="registration.html">Register</a></li>
@@ -25,13 +25,25 @@
         <fieldset class="width-80">
             <div class="form-group">
                 <h2 class="form-label reg-font">Register With Us</h2>
+                <label for="first-name" class="form-label reg-font">First Name</label>
+                <input id="first-name" name="first-name" type="text" placeholder="First Name" class="form-control"><br>
+                <label for="last-name" class="form-label reg-font">Last Name</label>
+                <input id="last-name" name="last-name" type="text" placeholder="Last Name" class="form-control"><br><br>
         <label for="email" class="form-label reg-font">Email</label>
         <input id="email" name="email" type="text" placeholder="Email" class="form-control"><br>
+                <label for="username" class="form-label reg-font">Create Username</label>
+                <input id="username" name="username" type="text" placeholder="Username" class="form-control"><br><br>
         <label for="password" class="form-label reg-font">Create a Password</label>
         <input id="password" name="password" type="password" placeholder="Password" class="form-control"><br>
+<!--                <p class="reg-font">At least 8 characters—the more characters, the better.-->
+<!--                    A mixture of both uppercase and lowercase letters.-->
+<!--                    A mixture of letters and numbers.-->
+<!--                    Inclusion of at least one special character, e.g., ! @ # ? ]</p>-->
                 <label for="password-ck" class="form-label reg-font">Re-type Password</label>
-                <input id="password-ck" name="password-ck" type="password-ck" placeholder="Re-type Password" class="form-control"><br><br>
-        <label for="bio" class="form-label reg-font">Bio</label><br>
+                <input id="password-ck" name="password-ck" type="password" placeholder="Re-type Password" class="form-control"><br><br>
+                <input name="newsletter_signup" value="true" type="checkbox" checked><label class="reg-font">Sign Up For The Email Newsletter</label>
+                <br><br>
+        <label for="bio" class="form-label reg-font">Tell us about yourself</label><br>
         <textarea id="bio" name="bio" class="form-control"></textarea><br><br>
         <label class="form-label reg-font">How did you hear about us?</label><br>
         <input type="checkbox" name="user-medium" value="internet"><label class="reg-font"> Internet</label><br>
@@ -49,5 +61,8 @@
             <button class="btn btn-block">Register</button>
         </fieldset>
     </form>
+<div class="container-class">
+    <a href="#top">Go back to top</a>
+</div>
 </body>
 </html>

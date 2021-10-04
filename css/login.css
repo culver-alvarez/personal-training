@@ -19,9 +19,12 @@ form {
 }
 
 fieldset {
-    -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    /*-webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);*/
+    /*-moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);*/
+    /*box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);*/
+    -webkit-box-shadow: 10px 10px 5px 0 grey;
+    -moz-box-shadow: 10px 10px 5px 0 grey;
+    box-shadow: 10px 10px 5px 0 grey;
     /* There must be 1em between the content and the border of this element */
     padding: 1em;
     /* It should have no border */
@@ -77,6 +80,8 @@ fieldset {
     /* HINT: Examples are available at: https://glitch.com/~input-button-width */
     width: calc(100% - 12px);
 }
+
+
 
 /*my changes*/
 
