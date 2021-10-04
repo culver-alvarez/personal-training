@@ -94,6 +94,19 @@ h1 {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+/*Footer Bar*/
+footer {
+    text-align: center;
+    padding: 15px;
+    overflow: hidden;
+    background-color: dimgrey;
+    border: 5px solid white;
+    color: white;
+    margin-bottom: -20px;
+}
+
+
+
 .fancy-header {
     color: pink;
 }
@@ -145,7 +158,7 @@ a:active {
     font-size: 60px;
 }
 
-#message {
+.message {
     width: calc(100% - 8px);
     height: 200px;
     box-sizing: border-box;
