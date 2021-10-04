@@ -92,6 +92,17 @@ a:active {
     color:red;
 }
 
+/*About Us */
+.creators {
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+}
+
+.bdc {
+    width: 40%;
+    margin: 10px;
+}
 
 
 
