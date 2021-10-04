@@ -54,12 +54,14 @@ fieldset {
 
 .btn-block {
     /* This element should use 100% of the width */
-    width: 100%;
+    width: calc(100% - 8px);
+    margin-left: 8px;
 }
 
 .btn {
     /* There must be a separation of 8px between the text and the border of this element */
-    padding: 8px;
+    padding: 6px;
+    font-size: 18px;
     /* The text color of this element should be white and bold */
     color: white;
     font-weight: bold;
