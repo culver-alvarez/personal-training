@@ -180,5 +180,16 @@ a:active {
     box-sizing: border-box;
 }
 
+/*Testimonial Page*/
+.testimonial-img {
+    width: 25%;
+    margin: 10px;
+    box-shadow: 0 0 10px #fff;
+    -moz-box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 10px #fff;
+    -o-box-shadow: 0 0 10px #fff;
+    transition: transform .3s; /* Animation */
+}
+
 
 
