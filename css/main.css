@@ -83,6 +83,13 @@ nav {
     transition: transform .2s; /* Animation */
 }
 
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 60px;
+    color: red;
+    text-shadow: 2px 3px white;
+}
+
 .home a:hover {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
