@@ -133,5 +133,9 @@ a:active {
     font-size: 60px;
 }
 
+#message {
+    height: 50%;
+}
+
 
 
