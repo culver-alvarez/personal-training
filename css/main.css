@@ -141,12 +141,43 @@ a:active {
     color:red;
 }
 
-
-/*About Us */
 .creators {
     text-align: center;
     padding: 50px;
     margin: 20px;
+}
+
+/*About Us */
+.about-us {
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+}
+.about-us h1 {
+    color: green;
+}
+
+#meet-the-team {
+    font-size: 90px;
+    color: red;
+}
+
+.about-harris {
+    width: 15%;
+    margin: 10px;
+    box-shadow: 0 0 10px #fff;
+    -moz-box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 10px #fff;
+    -o-box-shadow: 0 0 10px #fff;
+    transition: transform .3s; /* Animation */
+}
+
+.about-harris:hover {
+    transform: scale(1.1);
+}
+
+#about-list {
+    list-style: none;
 }
 
 .bdc {
@@ -182,8 +213,8 @@ a:active {
 
 /*Testimonial Page*/
 .testimonial-img {
-    width: 25%;
-    margin: 10px;
+    width: 20%;
+    margin: 15px;
     box-shadow: 0 0 10px #fff;
     -moz-box-shadow: 0 0 10px #fff;
     -webkit-box-shadow: 0 0 10px #fff;
