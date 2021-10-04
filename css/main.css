@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,900&display=swap');
+
 html {
     /*background: url(../img/abstract-blue.jpg) no-repeat center center fixed;*/
     background: black;
@@ -35,6 +37,9 @@ html {
     transition: transform .3s; /* Animation */
 }
 
+nav {
+    border: 5px solid white;
+}
 
 #nav-list {
     list-style-type: none;
@@ -44,8 +49,12 @@ html {
     background-color: red;
 }
 
-.nav-item{
-    float: left;
+.nav-reg{
+    float: right;
+    padding-top: 8px;
+    padding-right: 10px;
+    font-size: 20px;
+    text-shadow: 3px 2px black;
 }
 
 .nav-item a {
@@ -55,12 +64,27 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: transform .2s; /* Animation */
 }
 
-/* Change the link color to #111 (black) on hover */
+
 .nav-item a:hover {
-    color: #fff;
-    background-color: #111;
+    color: #ff0;
+    transform: scale(1.1);
+}
+
+/*Navbar Comsme Fitness*/
+.home {
+    float: left;
+    padding-left: 10px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 4px black;
+    transition: transform .2s; /* Animation */
+}
+
+.home a:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .fancy-header {
