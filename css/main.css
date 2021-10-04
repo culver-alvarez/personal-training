@@ -134,7 +134,9 @@ a:active {
 }
 
 #message {
-    height: 50%;
+    width: calc(100% - 8px);
+    height: 200px;
+    box-sizing: border-box;
 }
 
 
