@@ -224,9 +224,18 @@ a:active {
 }
 
 /****Egg1******/
-.egg1 {
-    width: 50%;
+
+.tenor-gif-embed {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    margin-left: 32%;
+    box-shadow: 0 0 10px #fff;
+    -moz-box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 10px #fff;
+    -o-box-shadow: 0 0 10px #fff;
 }
+
 
 
 
