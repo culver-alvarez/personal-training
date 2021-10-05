@@ -223,5 +223,10 @@ a:active {
     transition: transform .3s; /* Animation */
 }
 
+/****Egg1******/
+.egg1 {
+    width: 50%;
+}
+
 
 
