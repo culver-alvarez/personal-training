@@ -154,7 +154,8 @@ a:active {
     margin: -40px;
 }
 .about-us h1 {
-    color: green;
+    color: limegreen;
+    /*text-shadow: 2px 3px red;*/
 }
 
 #meet-the-team {
