@@ -144,14 +144,14 @@ a:active {
 .creators {
     text-align: center;
     padding: 50px;
-    margin: 20px;
+    /*margin: 20px;*/
 }
 
 /*About Us */
 .about-us {
     text-align: center;
     padding: 50px;
-    margin: 20px;
+    margin: -20px;
 }
 .about-us h1 {
     color: green;
@@ -163,7 +163,7 @@ a:active {
 }
 
 .about-harris {
-    width: 15%;
+    width: 13%;
     margin: 10px;
     box-shadow: 0 0 10px #fff;
     -moz-box-shadow: 0 0 10px #fff;
